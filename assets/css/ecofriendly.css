@@ -1,0 +1,143 @@
+.eco__banner__img{
+    padding: 0;
+    height: 63vh;
+    min-height: 63vh;
+    background-color: rgb(124, 178, 43);
+    background-image: url("../../img/ECO_BANNER.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.eco__banner__text{
+    margin: 0;
+    text-align: center;
+    padding: 1.5rem 1rem;
+    background-color: rgb(124, 178, 43);
+    color: rgb(255, 255, 255);
+    border: none;
+}
+.eco__banner__text__title{
+    font-family: MadeTomyBold;
+    font-size: 28px;
+    line-height: 30px;
+    margin-bottom: 8px;
+    color: rgb(255, 255, 255);
+}
+.eco__banner__text__sentence{
+    font-family: MadeTomyRegular;
+    font-size: 14px;
+    line-height: normal;
+    margin-bottom: 0;
+}
+.eco-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.eco-unit{
+    flex-basis: 100%;
+    padding: 2rem;
+    text-align: center;
+}
+.eco-unit__img{
+    width: 100%;
+}
+.eco-unit__title{
+    font-family: MadeTomyBold;
+    font-size: 22px;
+    line-height: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.eco-unit__text{
+    font-family: MadeTomyRegular;
+    font-size: 14px;
+    line-height: 1.4;
+    color: rgb(23, 24, 26);
+}
+@media screen and (min-width: 480px){
+    .eco__banner__img{
+        height: 65vh;
+    }
+    .eco__banner__text__title, .eco__banner__text__sentence{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .eco-unit{
+        flex-basis: 80%;
+    }
+    .eco-unit__img{
+        width: 90%;
+    }
+    .eco-unit__title{
+        font-size: 24px;
+    }
+    .eco-unit__text{
+        font-size: 16px;
+    }
+} 
+@media screen and (min-width: 768px){
+    .eco__banner__text__title, .eco__banner__text__sentence{
+        width: 60%;
+    }
+    .eco__banner__text__title{
+        font-size: 36px;
+        line-height: 40px;
+        margin-bottom: 10px;
+    }
+    .eco__banner__text__sentence{
+        font-size: 16px;
+    }
+    .eco-container{
+        margin-top: 1.5rem;
+    }
+    .eco-unit{
+        flex-basis: 32%;
+        padding: 1rem;
+    }
+    .eco-unit__img{
+        width: 100%;
+    }
+    .eco-unit__title{
+        font-size: 22px;
+        margin-top: 25px;
+    }
+    .eco-unit__text{
+        font-size: 14px;
+    }
+}
+@media screen and (min-width: 992px){
+    .eco__banner__text__title, .eco__banner__text__sentence{
+        width: 50%;
+    }
+    .eco__banner__text__title{
+        font-size: 42px;
+        margin-bottom: 15px;
+    }
+    .eco__banner__text__sentence{
+        font-size: 17px;
+    }
+    .eco-container{
+        width: 85%;
+        margin: 3rem auto;
+    }
+    .eco-unit{
+        flex-basis: 32%;
+        padding: 1rem;
+    }
+    .eco-unit__title{
+        font-size: 26px;
+        line-height: 30px;
+    }
+    .eco-unit__text{
+        font-size: 16px;
+    }
+}
+@media screen and (min-width: 1200px){
+    .eco__banner__text__sentence{
+        font-size: 20px;
+    }
+    .eco-unit__text{
+        font-size: 18px;
+    }
+}

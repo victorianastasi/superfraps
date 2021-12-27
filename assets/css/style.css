@@ -1,0 +1,305 @@
+@font-face {
+    font-family: Grambler;
+    src: url("../fonts/Fenotype\ -\ GamblerBrs-Regular.otf");
+}
+@font-face {
+    font-family: MadeTomyBold;
+    src: url("../fonts/MADE\ Tommy\ Soft\ Bold\ PERSONAL\ USE.otf");
+}
+@font-face {
+    font-family: MadeTomyRegular;
+    src: url("../fonts/MADE\ Tommy\ Soft\ Regular\ PERSONAL\ USE.otf");
+}
+@font-face {
+    font-family: MadeTomyMedium;
+    src: url("../fonts/MADE\ Tommy\ Soft\ Medium\ PERSONAL\ USE.otf");
+}
+body{
+    font-family: MadeTomyRegular, "Roboto", sans-serif;
+    background-color: rgb(255, 255, 255);
+    line-height: 1.9;
+    position: relative; 
+}
+h1, h2, h3, h4, h5, h6, 
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: MadeTomyMedium, "Roboto", sans-serif;
+  color: rgb(0, 0, 0); 
+}
+a{
+    color: inherit;
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease; 
+}
+a:hover{
+    color: inherit;
+    text-decoration: none;
+}
+.header-992px{
+    display: none;
+}
+.header-mobile{
+    position: sticky;
+    top: 0;
+    padding: 0 inherit;
+    background-color: rgb(255, 255, 255);
+    z-index: 1000;
+}
+.header-views{
+    position: sticky;
+    top: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+    z-index: 1000;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+}
+.navbar{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.logo-img{
+    width: 100px;
+}
+.navbar-nav{
+    font-family: MadeTomyRegular;
+    font-size: 16px;
+    line-height: 23px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+.footer-box{
+    display: none;
+}
+.footer-mobile-box{
+    display: block;
+    background-color: rgb(0, 0, 0);
+    background-image: url("../../img/footer.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 0 20px 0;
+}
+.footer-mobile{
+    padding: 1.5rem 0 2rem 0;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+.footer-mobile__logo{
+    flex-basis: 33%;
+}
+.footer-mobile__logo__img{
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+}
+.footer-mobile-block{
+    flex-basis: 33%;
+    font-family: MadeTomyRegular;
+    font-style: normal;
+    font-size: 11px;
+    line-height: 15px;
+    padding: 0rem;
+    color: rgb(255, 255, 255);
+}
+.footer-mobile-block p{
+    color: rgb(255, 255, 255);
+    margin: 0.5rem 0rem;
+}
+.footer-mobile-block .footer-mobile-text{
+    margin: 1rem 0rem;
+}
+.footer-mobile-icon{
+    font-size: 16px;
+}
+.wapp-box{
+    position:fixed;
+    bottom: 7px;
+    right: 12px;
+    z-index: 1000;
+}
+.wapp{
+    font-size: 30px;
+    text-align: center;
+}
+.wapp-icon{
+    background-color: rgb(37, 211, 102);
+    color: rgb(255, 255, 255);
+    border-radius: 50%;
+    padding: 0.6rem 0.7rem;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.25);
+    -webkit-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.25);
+    size: 3em;
+}
+@media screen and (min-width: 480px){
+    .footer-mobile__logo__img{
+        width: 120px;
+    }
+}
+@media screen and (min-width: 768px){
+    .navbar{
+        padding: 0 2rem;
+    }
+    .logo-img{
+        width: 120px;
+    }
+    .footer-mobile-box{
+        display: none;
+    }
+    .footer-box{
+        display: block;
+        background-color: rgb(0, 0, 0);
+        background-image: url("../../img/footer.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-bottom: 20px;
+    }
+    .footer{
+        padding: 1rem 0 2rem 0;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+    }
+    .footer__logo{
+        flex-basis: 20%;
+    }
+    .footer__logo__img{
+        display: block;
+        width: 150px;
+        padding-right: 0px;
+        margin: 0 auto;
+    }
+    .footer-blocks{
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: space-around;
+        flex-basis: 39%;
+    }
+    .footer__block{
+        display: flex;
+        flex-flow: column nowrap;
+        font-family: MadeTomyRegular;
+        font-style: normal;
+        font-size: 12px;
+        line-height: 15px;
+        padding: 0rem 1rem;
+        color: rgb(255, 255, 255);
+    }
+    .footer__block p{
+        color: rgb(255, 255, 255);
+        margin: 0.5rem 0rem;
+    }
+    .footer-icon{
+        font-size: 18px;
+    }
+    .wapp-box{
+        bottom: 10px;
+        right: 15px;
+    }
+    .wapp{
+        font-size: 36px;
+    }
+    .wapp-icon{
+        padding: 0.7rem 0.8rem;
+    }
+}
+@media screen and (min-width: 992px){
+    .header-mobile{
+        display: none;
+    }
+    .section-img-a{
+        display: none;
+    }
+    .header-992px{
+        display: block;
+        background-image: url("../../img/section-a.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link{
+        padding-left: 1rem;
+        padding-right: 1rem;
+        font-family: MadeTomyRegular;
+        font-size: 18px;
+    }
+    .header-section{
+        height: 100vh;
+        min-height: 100vh;
+    }
+    .nav-992px{
+        position: fixed;
+        top: 0;
+        padding: 0 inherit;
+        z-index: 1000;
+        width: 100%;
+        transition: background-color 200ms ease;
+    }
+    .scrolling-active{
+        background-color: rgb(255, 255, 255);
+    }
+    .navbar-collapse{
+        justify-content: flex-end;
+    }
+    .navbar-brand{
+        width: 150px;
+    }
+    .logo-img{
+        width: 120px;
+        margin-left: 2rem;
+    }
+    .footer-box{
+        padding-bottom: 25px;
+    }
+    .footer{
+        padding: 1.5rem 0 2.5rem 0;
+    }
+    .footer__logo__img{
+        width: 170px;
+    }
+    .footer__block{
+        font-family: MadeTomyMedium;
+        width: 100%;
+    }
+    .footer__block p{
+        font-size: 1rem;
+    }
+    .footer-link{
+        display: flex;
+        align-items: center;
+        transition: all 0.2s;
+    }
+    .link-shadow{
+        transition: all 0.2s;
+    }
+    .link-shadow:hover{
+        text-shadow: 2px 2px 5px rgba(255,255,255,0.5);
+    }
+    .footer-icon{
+        font-size: 28px;
+        padding: 0 0.75rem;
+    }
+}
+@media screen and (min-width: 1200px){
+    .footer-box{
+        padding-bottom: 20px;
+    }
+    .footer{
+        padding: 2.5rem 0 3.5rem 0;
+    }
+    .footer-icon{
+        font-size: 30px;
+    }
+    .wapp-box{
+        bottom: 15px;
+        right: 20px;
+    }
+    .wapp{
+        font-size: 40px;
+    }
+    .wapp-icon{
+        padding: 0.9rem 1rem;
+    }
+}

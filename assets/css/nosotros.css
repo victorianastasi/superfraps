@@ -1,0 +1,376 @@
+.nos__banner__img{
+    background-color: rgb(20, 54, 61);
+    background-image: url("../../img/nosotros-header\ 2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 76vh;
+    position: relative;
+}
+.nos__banner__text{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 1.5rem;
+    color: rgb(255, 255, 255);
+}
+.nos__banner__text__title{
+    font-family: MadeTomyBold;
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+    line-height: 45px;
+    margin-bottom: 20px;
+}
+.nos__banner__text__sentence{
+    font-family: MadeTomyRegular;
+    font-size: 15px;
+    line-height: 20px;
+}
+.nos__title{
+    font-family: MadeTomyBold;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    margin: 1.5rem 0;
+    color: rgb(0,0,0);
+}
+.nos__mision__768px{
+    display: none;
+}
+.nos__mision__mobile__img, .nos__mision__mobile__img{
+    background-color: rgb(33, 37, 41);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 420px;
+}
+.first-img{
+    background-image: url("../../img/nosotros-mision\ mobile.jpg");
+}
+.second-img{
+    background-image: url("../../img/nosotros-vision\ mobile.jpg");
+}
+.nos__mision__mobile__text{
+    text-align: center;
+    padding: 1.5rem;
+    color: rgb(255, 255, 255);
+    border: none;
+}
+.first-text{
+    background-color: #4DB6B4;
+}
+.second-text{
+    background-color: #056971;
+}
+.nos__mision__mobile__text__title{
+    font-family: MadeTomyBold;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+.nos__mision__mobile__text__sentence{
+    font-family: MadeTomyRegular;
+    font-size: 14px;
+    line-height: normal;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.nos__values__bg{
+    background-color: rgb(33, 37, 41);
+    background-image: url("../../img/nosotros-values-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.nos__values__content{
+    background-color: rgba(255,255,255,0.8);
+    padding-bottom: 5rem;
+    z-index: 1000;
+}
+.nos__values__title{
+    color: rgb(0,0,0);
+    text-align: center;
+    font-family: MadeTomyBold;
+    font-size: 24px;
+    line-height: 30px;
+    padding: 2.5rem 0;
+}
+.nos__values__container{
+    display: flex;
+    flex-flow: row wrap;
+    width: 85%;
+    background-color: rgb(255,255,255);
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px rgb(33, 37, 41);
+    -webkit-box-shadow: 0px 0px 15px rgb(33, 37, 41);
+    margin: 0 auto;
+    padding: 1rem 15px;
+}
+.nos__values__boxes{
+    width: 100%;
+    padding-top: 1rem;
+    text-align: center;
+    color: rgb(23, 24, 26);
+}
+.nos__values__boxes__title{
+    font-family: MadeTomyBold;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+.nos__values__boxes__text{
+    font-family: MadeTomyRegular;
+    font-size: 14px;
+    margin: 0 1rem 0 1rem;
+    padding-bottom: 15px;
+    border-bottom: 0.5px solid rgb(33, 37, 41);
+    line-height: normal;
+}
+.nos__values__boxes__text-family{
+    font-size: 14px;
+}
+@media screen and (min-width: 360px){
+    .nos__banner__text{
+        width: 90%;
+    }
+}
+@media screen and (min-width: 480px){
+    .nos__banner__text{
+        top: 0;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        width: 100%;
+    }
+    .nos__banner__text__sentence{
+        margin: 0;
+        line-height: normal;
+    }
+    .nos__section__img, .nos__section__img{
+        min-height: 500px;
+    }
+}
+@media screen and (min-width: 768px){
+    .nos__banner__img{
+        min-height: 420px;
+    }
+    .nos__banner__text{
+        width: 80%;
+    }
+    .nos__banner__text__title{
+        font-size: 40px;
+    }
+    .nos__banner__text__sentence{
+        font-size: 18px;
+    }
+    .nos__title{
+        font-size: 28px;
+        margin: 2rem 0;
+    }
+    .nos__mision__mobile{
+        display: none;
+    }
+    .nos__mision__768px{
+        display: block;
+    }
+    .nos__mision{
+        display: flex;
+        flex-flow: row wrap;
+    }
+    .nos__mision__text{
+        color: rgb(255, 255, 255);
+        flex-basis: 50%;
+    }
+    .nos__mision__text__title{
+        color: rgb(255, 255, 255);
+    }
+    .nos__mision__img{
+        width: 50%;
+    }
+    .nos__mision__text{
+        text-align: center;
+        padding: 1.5rem;
+        color: rgb(255, 255, 255);
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+    }
+    .nos__mision__text__title{
+        font-family: MadeTomyBold;
+        font-size: 28px;
+        line-height: 30px;
+        margin-bottom: 15px;
+    }
+    .nos__mision__text__sentence{
+        font-family: MadeTomyRegular;
+        font-size: 16px;
+        line-height: normal;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        margin: 0;
+    }
+    .nos__values__title{
+        padding: 3rem 0 1rem 0;
+        margin: 0;
+    }
+    .nos__values__container{
+        width: 100%;
+        background-color: transparent;
+        border-radius: 0px;
+        box-shadow: none;
+        -webkit-box-shadow: none;
+        margin: 0 auto;
+        padding: 0 15px 1rem 15px;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .nos__values__boxes{
+        background-color: rgb(255,255,255);
+        height: 180px;
+        border-radius: 15px;
+        box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.25);
+        -webkit-box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.25);
+        width: 30%;
+        padding: 1.5rem 0;
+        margin: 1.5rem 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .nos__values__boxes__text{
+        padding-bottom: 0;
+        border-bottom: none;
+        line-height: normal;
+    }
+}
+@media screen and (min-width: 992px){
+    .nos__banner__img{
+        min-height: 480px;
+    }
+    .nos__banner__text{
+        width: 70%;
+    }
+    .nos__banner__text__title{
+        font-size: 44px;
+        line-height: 50px;
+        margin-bottom: 20px;
+    }
+    .nos__banner__text__sentence{
+        font-size: 20px;
+    }
+    .nos__title{
+        margin: 3rem 0;
+    }
+    .nos__mision__text{
+        text-align: left;
+        padding: 1.5rem 5rem;
+    }
+    .nos__mision__text__title{
+        font-size: 28px;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+    .nos__mision__text__sentence{
+        font-size: 18px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .nos__values__container{
+        width: 90%;
+    }
+    .nos__values__boxes__title{
+        font-size: 24px;
+        line-height: 34px;
+        margin-bottom: 5px;
+    }
+    .nos__values__boxes__title{
+        font-size: 22px;
+    }
+    .nos__values__boxes__text, .nos__values__boxes__text-family{
+        font-size: 16px;
+    }
+}
+@media screen and (min-width: 1200px){
+    .nos__banner__img{
+        min-height: 550px;
+    }
+    .nos__banner__text{
+        padding-left: 2.5rem;
+        width: 60%;
+    }
+    .nos__title{
+        font-size: 30px;
+    }
+    .nos__mision__text{
+        padding: 1.5rem 6rem;
+    }
+    .nos__mision__text__title{
+        font-size: 30px;
+        line-height: 32px;
+    }
+    .nos__mision__text__sentence{
+        font-size: 20px;
+    }
+    .nos__values__title{
+        font-size: 30px;
+        line-height: 32px;
+    }
+    .nos__values__container{
+        width: 85%;
+    }
+    .nos__values__boxes__title{
+        font-size: 24px;
+        line-height: 34px;
+        margin-bottom: 5px;
+    }
+    .nos__values__boxes__text, .nos__values__boxes__text-family{
+        font-size: 18px;
+    }
+}
+@media screen and (min-width: 1600px){
+    .nos__banner__img{
+        min-height: 620px;
+    }
+    .nos__banner__text{
+        width: 52%;
+    }
+    .nos__banner__text__title{
+        font-size: 48px;
+        line-height: 60px;
+    }
+    .nos__banner__text__sentence{
+        font-size: 22px;
+    }
+    .nos__title{
+        font-size: 32px;
+        margin: 3.5rem 0;
+    }
+    .nos__mision__text{
+        padding: 1.5rem 8rem;
+    }
+    .nos__mision__text__title{
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .nos__mision__text__sentence{
+        font-size: 22px;
+    }
+    .nos__values__title{
+        padding: 4rem 0 2rem 0;
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .nos__values__container{
+        width: 80%;
+    }
+    .nos__values__boxes__title{
+        margin-bottom: 10px;
+    }
+}
+@media screen and (min-width: 1850px){
+    .nos__banner__img{
+        min-height: 720px;
+    }
+}
