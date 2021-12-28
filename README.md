@@ -1,5 +1,5 @@
 # Super Fraps
-Página Web dedicada a la venta de Smoothies, Malteadas y Frozen teas, desarrollada con la estrategia mobile first, y formulario de contacto construido con PHPMailer.
+Sitio Web dedicado a la venta de Smoothies, Malteadas y Frozen teas, desarrollada con la estrategia mobile first, y formulario de contacto construido con PHPMailer.
 
 ## Demo - Compañia de Macetas
 ### Web
