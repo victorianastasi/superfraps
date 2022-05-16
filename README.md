@@ -18,4 +18,4 @@ Sitio Web dedicado a la venta de Smoothies, Malteadas y Frozen teas, desarrollad
 ## Authores
 GitHub: [juantibaldo](https://github.com/juantibaldo) y [victorianastasi](https://github.com/victorianastasi)
 
-LinkedIn:  [Victoria Nastasi](https://www.linkedin.com/in/victoria-nastasi-a3452910b/)
+LinkedIn:  [Victoria Nastasi](https://www.linkedin.com/in/victoria-nastasi-74b007237/)
